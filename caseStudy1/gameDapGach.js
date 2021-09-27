@@ -90,23 +90,6 @@ function drawBricks() {
     });
 };
 
-// function drawBricks() {
-//     for (var i = 0; i < 4; i++) {
-//         for (var j = 0; j < 7; j++) {
-//             ctx.beginPath();
-//             ctx.rect(
-//                 30 + j * (80 + 30),
-//                 30 + i * (20 + 30),
-//                 80,
-//                 20
-//             );
-//             ctx.fillStyle = '#327297';
-//             ctx.fill();
-//             ctx.closePath();
-//         }
-//     }
-// }
-
 function movingBall() {
     ball.x += ball.dx; ball.y += ball.dy;
 };
